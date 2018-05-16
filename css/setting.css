@@ -1,0 +1,493 @@
+
+#welcome{
+    width:153px;
+    padding:0px 15px;
+    float:right;
+    position:relative;
+}
+
+#welcome p{
+    display:inline-block;
+    width:110px;
+    height:70px;
+    line-height:70px;
+    font-size:18px;
+    color:#fff;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#welcome:hover{
+    height:70px;
+    background:#4da7e3;
+    cursor: pointer;
+}
+
+#welcome .sanjiao{
+    width:0;
+    height:0;
+    border:5px solid transparent;
+    border-top:5px solid #fff;
+    position:relative;
+    left:115px;
+    top:-35px;
+}
+
+#welcome:hover .sanjiao{
+    border-top:5px solid transparent;
+    border-bottom:5px solid  #fff;
+    top:-60px;
+}
+
+
+nav #welcome #sub-nav{
+    width:153px;
+    height:160px;
+    background:#3498db;
+    position:absolute;
+    z-index:1110;
+    top:70px;
+    left:0;
+    display:none;
+}
+
+#welcome:hover #sub-nav{
+    display:block;
+}
+
+#welcome #sub-nav #sub-nav-list li{
+    list-style:none;
+
+}
+#welcome #sub-nav #sub-nav-list li a.a1{
+    background:url(../images/jingling.png) no-repeat 31px -734px;
+}
+#welcome #sub-nav #sub-nav-list li a.a2{
+    background:url(../images/jingling.png) no-repeat 31px -774px;
+}
+#welcome #sub-nav #sub-nav-list li a.a3{
+    background:url(../images/jingling.png) no-repeat 31px -814px;
+}
+#welcome #sub-nav #sub-nav-list li a.a4{
+    background:url(../images/jingling.png) no-repeat 31px -853px;
+}
+
+#welcome #sub-nav #sub-nav-list li a{
+    display:block;
+    text-decoration: none;
+    color:#fff;
+    font-size:14px;
+    line-height:40px;
+    padding-left:70px;
+}
+
+#welcome #sub-nav #sub-nav-list li a:hover{
+    background-color:#86caf8;
+}
+
+
+#step{
+    width:746px;
+    height:74px;
+    margin:0 auto;
+    margin-top:20px;
+    position:relative;
+}
+#step .tiao{
+    width:730px;
+    height:2px;
+    background:#3498db;
+    position:absolute;
+    top:24px;
+    left:8px;
+    z-index: 8;
+}
+
+#step ul{
+    overflow:hidden;
+    position:absolute;
+    z-index: 10;
+}
+
+#step ul li{
+    float:left;
+    list-style:none;
+    margin-left:104px;
+    width:66px;
+}
+#step ul li.first-li{
+    margin-left:0;
+}
+
+#step ul li h1{
+    width:50px;
+    height:50px;
+    margin:0 auto;
+    background:url(../images/jingling.png) no-repeat 0 -534px;
+}
+
+#step ul li h1.my{
+    background:url(../images/jingling.png) no-repeat -68px -604px;
+}
+#step ul li h1.work{
+    background:url(../images/jingling.png) no-repeat -142px -604px;
+}
+#step ul li h1.education{
+    background:url(../images/jingling.png) no-repeat -215px -604px;
+}
+#step ul li h1.hobby{
+    background:url(../images/jingling.png) no-repeat -282px -604px;
+}
+
+#step ul li p{
+    margin-top:6px;
+    color:#333;
+    font-size:16px;
+}
+
+#step ul li p.txtjbxx{
+    color:#3498db;
+}
+
+
+/********************************************************************翻页***************************************************************************/
+/*
+.clearfix{
+    width:940px;
+    height:400px;
+    margin:0 auto;
+    margin-top:20px;
+    position:relative;
+
+}
+#fanye .bb-custom-wrapper,.bb-bookblock{
+    width:100%;
+    height:400px;
+}
+
+.bb-item{
+    width:100%;
+    height:400px;
+    position:relative;
+    overflow: hidden;
+}
+
+#fanye .left-ye{
+    float:left;
+    width:464px;
+    height:392px;
+    background:#fff;
+    position:relative;
+    top:4px;
+    left:4px;
+    border:4px solid #ddd;
+    border-radius:5px;
+}
+#fanye .right-ye{
+    float:right;
+    width:464px;
+    height:392px;
+    background:#fff;
+    position:relative;
+    top:4px;
+    right:4px;
+    border-radius:5px;
+    border:4px solid #ddd;
+}
+
+#fanye .quan{
+    width:50px;
+    height:400px;
+    position:absolute;
+    background:url(../images/quan.png) repeat 0 0;
+    top:0;
+    left:445px;
+    z-index:100;
+}
+*/
+.clearfix{
+    width:940px;
+    height:400px;
+    margin:0 auto;
+    position:relative;
+    padding:0;
+    margin-top:20px;
+}
+
+
+.bb-bookblock{
+    width:100%;
+    height:400px;
+}
+
+
+
+.bb-custom-wrapper nav,h3{
+    display:block;
+    width:940px;
+    text-align:center;
+}
+
+.fc-calendar-wrap{
+    width:280px;
+    height:400px;
+    float:right;
+}
+
+.zuo,.fc-calendar-wrap{
+    width:470px;
+    height:400px;
+    float:left;
+    border:4px solid #ddd;
+    border-radius:5px;
+    background:#fff;
+}
+.zuo{
+    padding-top:57px;
+    border-right:2px solid #ddd;
+    padding-left:153px;
+}
+
+.zuo h1{
+    font-weight:normal;
+}
+
+.fc-calendar-wrap{
+    border-left:2px solid #ddd;
+    padding-top:50px;
+    padding-left:55px;
+    font-size:18px;
+}
+
+.container .jt .bb-custom-icon-arrow-left,.bb-custom-icon-arrow-right{
+    display:inline-block;
+    width:112px;
+    height:54px;
+    padding-left:38px;
+    background:url(../images/jingling.png) no-repeat 0 -892px;
+    position:absolute;
+    top:170px;
+    left:-122px;
+    color:#aaa;
+}
+
+.container .jt .bb-custom-icon-arrow-right{
+    padding-left:0;
+    padding-right:38px;
+    background:url(../images/jingling.png) no-repeat 82px -942px;
+    left:950px;
+}
+
+
+.container .jt .bb-custom-icon-arrow-left:hover{
+    color:#3498db;
+    background:url(../images/jingling.png) no-repeat 0 -993px;
+}
+
+.container .jt .bb-custom-icon-arrow-right:hover{
+    color:#3498db;
+    background:url(../images/jingling.png) no-repeat 82px -1046px;
+}
+
+
+.container .jt h1{
+    font-size:22px;
+    line-height:30px;
+    font-weight:normal;
+}
+.container .jt h2{
+    font-size:18px;
+    line-height:24px;
+    font-weight:normal;
+}
+
+.clearfix .quan{
+    width:50px;
+    height:400px;
+    background:url(../images/quan.png) repeat-y 0 0;
+    position:absolute;
+    top:0;
+    left:445px;
+    z-index:1000;
+}
+
+.clearfix .direct{
+    width:120px;
+    color:#ccc;
+    position:absolute;
+    top:340px;
+    left:950px;
+}
+
+.clearfix .direct h1{
+    font-size:18px;
+    font-weight:normal;
+    text-decoration:underline;
+}
+.clearfix .direct h2{
+    font-size:12px;
+    font-weight:normal;
+}
+
+
+.clearfix .direct:hover{
+    cursor:pointer;
+    color:#3498db;
+}
+
+.fc-calendar-wrap input[type=text],select{
+    width:377px;
+    height:40px;
+    margin-top:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    outline:none;
+    padding-left:10px;
+    font-size:16px;
+    margin-bottom:25px;
+}
+.fc-calendar-wrap select{
+    color:#ccc;
+}
+.fc-calendar-wrap select:focus{
+    color:black;
+}
+.fc-calendar-wrap input[type=text]:focus{
+    border:1px solid #3498db;
+}
+.fc-calendar-wrap input[type=text]#dpd1,#dpd2{
+    width:175px;
+}
+
+.fc-calendar-wrap input[type=text]#dpd1{
+    margin-right:27px;
+}
+
+
+.fc-calendar-wrap form>label.bl{
+    display:block;
+    color:#333;
+}
+.fc-calendar-wrap form span label{
+    cursor: pointer;
+}
+.fc-calendar-wrap form span input[type=radio]{
+    display:none;
+}
+/*
+#nank{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background:url(../images/nanhui.png) no-repeat 0 0;
+}
+
+.fc-calendar-wrap form span input[type=radio]#nan:checked+#nank{
+    background:url(../images/nan.png) no-repeat 0 0;
+}
+
+#nvk{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background:url(../images/nvhui.png) no-repeat 0 0;
+}
+
+.fc-calendar-wrap form span input[type=radio]#nv:checked+#nvk{
+    background:url(../images/nv.png) no-repeat 0 0;
+}
+*/
+form#jbxx span{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    margin-top:15px;
+    margin-bottom:25px;
+    margin-right:30px;
+}
+
+
+form#jbxx span label{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    border-radius:5px;
+    line-height:34px;
+    text-align:center;
+    border:1px solid #ccc;
+}
+
+
+.fc-calendar-wrap form#jbxx span input[type=radio]:checked+label{
+    color:#3498db;
+    border:2px solid #3498db;
+}
+
+.fc-calendar-wrap form textarea{
+    width:377px;
+    height:250px;
+    margin-top:15px;
+    outline:none;
+    border-radius:5px;
+    padding:5px;
+    font-size:16px;
+    color:black;
+    border:1px solid #ccc;
+}
+.fc-calendar-wrap form textarea#aihao{
+    height:150px;
+    box-shadow: none;
+
+}
+.fc-calendar-wrap form textarea:focus{
+    border:1px solid #3498db;
+}
+
+.bb-item .fc-calendar-wrap form.gzjy span{
+    display:block;
+    width:0;
+    height:0;
+    border:5px solid transparent;
+    border-top:5px solid #ccc;
+    position:relative;
+    top:-47px;
+    left:153px;
+}
+
+.bb-item .fc-calendar-wrap form.gzjy span.houyige{
+    top:-57px;
+    left:360px;
+}
+
+.bb-item .fc-calendar-wrap form.gzjy b{
+    display:inline-block;
+    width:16px;
+    height:3px;
+    background:#ccc;
+    position:relative;
+    top:-82px;
+    left:182px;
+}
+
+#bb-nav-prev{
+    display:none;
+}
+
+
+#tijiaobtn{
+    width:100px;
+    height:40px;
+    background:#3498db;
+    border-radius:5px;
+    line-height:40px;
+    text-align:center;
+    color:#fff;
+    position:absolute;
+    top:180px;
+    left:960px;
+    cursor: pointer;
+    display:none;
+}
+
+

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/bookblock.css" />
+    <!-- custom demo style -->
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/setting.css">
+    <link href="css/foundation-datepicker.css" rel="stylesheet" type="text/css">
+    <script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+    <nav class="main-nav">
+        <div id="cont">
+            <a href="login.html" class="left"><img src="images/logo.png" alt="" ></a>
+            <ul class="left list">
+                <li class="left">话题</li>
+                <li class="left">社区</li>
+                <li class="left">知识</li>
+                <li class="left">通讯</li>
+            </ul>
+            <div id="welcome">
+                <p title="欢迎！豆荚小姐">欢迎！豆荚小姐</p>
+                <span class="sanjiao"></span>
+                <div id="sub-nav">
+                    <ul id="sub-nav-list">
+                        <li><a href="" class="a1">我的好友</a></li>
+                        <li><a href="" class="a2">参与过的</a></li>
+                        <li><a href="" class="a3">我的资料</a></li>
+                        <li><a href="" class="a4">退出登录</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+<!-- 进度条 -->
+    <div id="step">
+        <div class="tiao"></div>
+        <ul>
+            <li class="first-li">
+                <h1 class="base"></h1>
+                <p class="txtjbxx">基本信息</p>
+            </li>
+
+            <li>
+                <h1 class="work"></h1>
+                <p>工作经验</p>
+            </li>
+            <li>
+                <h1 class="education"></h1>
+                <p>教育经历</p>
+            </li>
+            <li>
+                <h1 class="hobby"></h1>
+                <p>兴趣爱好</p>
+            </li>
+            <li>
+                <h1 class="my"></h1>
+                <p>自我评价</p>
+            </li>
+        </ul>
+    </div>
+
+
+
+<!-- 翻页 -->
+    <div class="container">
+        <!-- Top Navigation -->
+        <div class="main clearfix">
+            <div class="bb-custom-wrapper">
+                <div id="bb-bookblock" class="bb-bookblock">
+                    <div class="bb-item">
+                        <div class="zuo">
+                            <p>
+                                <img src='images/jbxx.png' alt="">
+                            </p>
+                            <h1>基本信息</h1>
+                            <div class="bu"><br><br><br><br><br> 第一步（共五步）</div>
+                        </div>
+                        <div class="fc-calendar-wrap">
+                            <form action="" id="jbxx">
+                                <label class="bl">姓名：</label>
+                                <input type="text" placeholder="请留下您的大名">
+                                <label class="bl">性别：</label>
+                                <span>
+                                    <input type="radio" id="nan" name="gender" checked>
+                                    <label for="nan" id="nank">男</label>
+                                </span>
+                                <span>
+                                    <input type="radio" id="nv" name="gender">
+                                    <label for="nv" id="nvk">女</label>
+                                </span>
+                                <label class="bl">联系方式：</label>
+                                <input type="text" placeholder="您的联系方式">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="bb-item">
+                        <div class="zuo">
+                            <p>
+                                <img src="images/gzjy.png" alt="">
+                            </p>
+                            <h1>工作经验</h1>
+                            <div><br><br><br><br><br> 第三步（共五步）</div>
+                        </div>
+                        <div class="fc-calendar-wrap">
+                            <form action="" class="gzjy">
+                                <label class="bl">企业：</label>
+                                <input type="text" placeholder="您工作过的企业">
+                                <label class="bl">职位：</label>
+                                <input type="text" placeholder="您在公司的职位">
+                                <label class="bl">工作时间：</label>
+                                <input type="text"  value="" id="dpd1">
+                                <input type="text"  value="" id="dpd2">
+                                <span></span>
+                                <span class="houyige"></span>
+                                <b></b>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="bb-item">
+                        <div class="zuo">
+                            <p>
+                                <img src="images/jyjl.png" alt="">
+                            </p>
+                            <h1>教育经历</h1>
+                            <div><br><br><br><br><br> 第四步（共五步）</div>
+                        </div>
+                        <div class="fc-calendar-wrap">
+                            <form action="">
+                                <label class="bl">学校：</label>
+                                <input type="text" placeholder="您工作过的企业">
+                                <label class="bl">专业：</label>
+                                <input type="text" placeholder="您在公司的职位">
+                                <label class="bl">学历/学位：</label>
+                                <select name="" id="xueli">
+                                    <option value="">请选择</option>
+                                    <option value="">博士</option>
+                                    <option value="">硕士</option>
+                                    <option value="">本科</option>
+                                    <option value="">大专</option>
+                                    <option value="">中专</option>
+                                    <option value="">高中</option>
+                                    <option value="">初中</option>
+                                    <option value="">小学</option>
+                                    <option value="">其他</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="bb-item">
+                        <div class="zuo">
+                            <p>
+                                <img src="images/xqah.png" alt="">
+                            </p>
+                            <h1>兴趣爱好</h1>
+                            <div><br><br><br><br><br> 第五步（共五步）</div>
+                        </div>
+                        <div class="fc-calendar-wrap">
+                            <form action="">
+                                <label class="bl">兴趣爱好：</label>
+                                <select name="" id="xingqu">
+                                    <option value="">请选择</option>
+                                    <option value="">球类</option>
+                                    <option value="">跑步</option>
+                                    <option value="">游泳</option>
+                                    <option value="">自行车</option>
+                                    <option value="">旅游</option>
+                                    <option value="">唱歌</option>
+                                    <option value="">乐器</option>
+                                    <option value="">烹饪</option>
+                                    <option value="">其他（在爱好描述中具体陈述）</option>
+                                </select>
+                                <label class="bl">爱好描述：</label>
+                                <textarea name="" id="aihao" cols="30" rows="10"></textarea>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="bb-item">
+                        <div class="zuo">
+                            <p>
+                                <img src="images/zwpj.png" alt="">
+                            </p>
+                            <h1>自我评价</h1>
+                            <div><br><br><br><br><br> 第二步（共五步）</div>
+                        </div>
+                        <div class="fc-calendar-wrap">
+                            <form action="">
+                                <label class="bl">自我评价：</label>
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <nav class="jt">
+                    <a id="bb-nav-prev" href="#" class="bb-custom-icon-left bb-custom-icon-arrow-left"> <h1>上一步</h1> <h2>教育经历</h2></a>
+                    <a id="bb-nav-next" href="#" class="bb-custom-icon bb-custom-icon-arrow-right"><h1>下一步</h1> <h2>工作经验</h2></a>
+                </nav>
+            </div>
+            <div class="quan"></div>
+            <div class="direct" id="direct">
+                <h1>直接提交</h1>
+                <h2>基本信息填写完成后，<br>即可直接提交您的资料</h2>
+            </div>
+            <div id="tijiaobtn">
+                提交
+            </div>
+        </div>
+    </div><!-- /container -->
+
+
+    <footer>
+        版权所有 @ 万达信息股份有限公司
+    </footer>
+
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/jquery.bookblock.js"></script>
+    <script src="js/foundation-datepicker.js"></script>
+    <script src="js/setting.js"></script>
+
+    <!-- 翻页 -->
+    <script>
+        var Page = (function() {
+
+            var config = {
+                        $bookBlock : $( '#bb-bookblock' ),
+                        $navNext : $( '#bb-nav-next' ),
+                        $navPrev : $( '#bb-nav-prev' )
+                    },
+                    init = function() {
+                        config.$bookBlock.bookblock( {
+                            speed : 700
+                        } );
+                        initEvents();
+                    },
+                    initEvents = function() {
+
+                        var $slides = config.$bookBlock.children();
+
+                        // add navigation events
+                        config.$navNext.on( 'click touchstart', function() {
+                            config.$bookBlock.bookblock( 'next' );
+                            return false;
+                        } );
+
+                        config.$navPrev.on( 'click touchstart', function() {
+                            config.$bookBlock.bookblock( 'prev' );
+                            return false;
+                        } );
+
+
+
+                        // add keyboard events
+                        $( document ).keydown( function(e) {
+                            var keyCode = e.keyCode || e.which,
+                                    arrow = {
+                                        left : 37,
+                                        up : 38,
+                                        right : 39,
+                                        down : 40
+                                    };
+
+                            switch (keyCode) {
+                                case arrow.up:
+                                    config.$bookBlock.bookblock( 'prev' );
+                                    e.preventDefault();
+                                    break;
+                                case arrow.down:
+                                    config.$bookBlock.bookblock( 'next' );
+                                    e.preventDefault();
+                                    break;
+                            }
+
+                        } );
+                    };
+
+            return { init : init };
+
+        })();
+    </script>
+    <script>
+        Page.init();
+    </script>
+
+    <!-- 日历 -->
+    <script>
+        var nowTemp = new Date();
+        var now = new Date(nowTemp.getFullYear(), nowTemp.getMonth(), nowTemp.getDate(), 0, 0, 0, 0);
+        var checkin = $('#dpd1').fdatepicker({
+            onRender: function (date) {
+                return date.valueOf() < now.valueOf() ? 'disabled' : '';
+            }
+        }).on('changeDate', function (ev) {
+            if (ev.date.valueOf() > checkout.date.valueOf()) {
+                var newDate = new Date(ev.date)
+                newDate.setDate(newDate.getDate() + 1);
+                checkout.update(newDate);
+            }
+            checkin.hide();
+            $('#dpd2')[0].focus();
+        }).data('datepicker');
+
+
+        var checkout = $('#dpd2').fdatepicker({
+            onRender: function (date) {
+                return date.valueOf() <= checkin.date.valueOf() ? 'disabled' : '';
+            }
+        }).on('changeDate', function (ev) {
+            checkout.hide();
+        }).data('datepicker');
+    </script>
+
+
+
+    <script>
+        $('select').mousedown(
+                function(){
+                    $(this).css('color','black')
+                }
+        )
+    </script>
+
+
+
+</body>
+</html>

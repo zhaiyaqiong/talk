@@ -1,0 +1,107 @@
+ .biaoti{
+    width:180px;
+    font-size:30px;
+    color:#3498db;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+body{
+    background:#f6f6f6;
+}
+
+
+ul.listitem{
+    padding:0 79px;
+    overflow:hidden;
+}
+
+ ul.listitem li{
+     list-style:none;
+     width:554px;
+     background:#fff;
+     margin-top:20px;
+ }
+
+ ul.listitem li.left{
+     float:left;
+ }
+
+ ul.listitem li.right{
+     float:right;
+ }
+ ul.listitem li.shang{
+     width:383px;
+     margin-right:20px;
+ }
+
+ ul.listitem li.xia{
+     width:584px;
+ }
+
+ ul.listitem li.jy{
+     margin-right:0px;
+ }
+ ul.listitem li header span{
+     display:inline-block;
+     width:40px;
+     height:40px;
+     margin:10px 20px 10px 20px;
+     vertical-align: top;
+     background:url(../images/jingling.png) no-repeat 0 -1108px;
+ }
+
+ ul.listitem li header span.pingjia{
+     background:url(../images/jingling.png) no-repeat -43px -1108px;
+ }
+
+ ul.listitem li header span.gongzuo{
+     background:url(../images/jingling.png) no-repeat -87px -1108px;
+ }
+
+ ul.listitem li header span.jiaoyu{
+     background:url(../images/jingling.png) no-repeat -131px -1108px;
+ }
+
+ ul.listitem li header span.aihao{
+     background:url(../images/jingling.png) no-repeat -176px -1108px;
+ }
+
+ ul.listitem li header h1,h2{
+     display:inline-block;
+     font-size:20px;
+     color:#3498db;
+     font-weight:normal;
+     line-height:20px;
+     margin-top:20px;
+ }
+
+ ul.listitem li header h2{
+     float:right;
+     margin-right:20px;
+     cursor:pointer;
+ }
+ ul.listitem li>p{
+     height:2px;
+     width:100%;
+     background:#3498db;
+ }
+
+ ul.listitem li>div{
+     margin:20px;
+     outline:none;
+     overflow-y: auto;
+     height:138px;
+
+ }
+
+ ul.listitem li>div>p{
+     clear:both;
+     float:left;
+     border:1px solid transparent;
+     font-size:16px;
+     color:#333;
+     line-height:28px;
+     margin-top:8px;
+     margin-bottom:8px;
+ }
